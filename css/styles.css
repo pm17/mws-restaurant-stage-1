@@ -264,7 +264,7 @@ nav h1 a {
 .inside #footer {
     bottom: 0;
     position: absolute;
-    width: 45%;
+    /*width: 45%;*/
 }
 
 #restaurant-name {
@@ -389,7 +389,7 @@ nav h1 a {
     }
 
     .inside #footer {
-        width: 100%;
+        /*width: 100%;*/
     }
 
     #restaurants-list li {

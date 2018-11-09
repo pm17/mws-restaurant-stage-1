@@ -160,7 +160,7 @@ createRestaurantHTML = (restaurant) => {
     li.setAttribute('role', 'listitem');
 
     const image = document.createElement('img');
-    image.alt = 'Image of' + restaurant.name;
+    image.alt = 'Image of ' + restaurant.name;
     image.className = 'restaurant-img';
     image.src = DBHelper.imageUrlForRestaurant(restaurant);
     li.append(image);
